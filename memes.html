@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МЕМИ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .mems {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+            gap: 20px;
+            padding: 20px;
+            justify-items: center; /* Вирівнювання по центру */
+        }
+
+        .mems img {
+            width: 100%;
+            height: 225px; /* Встановлено однакову висоту для всіх картинок */
+            object-fit: contain; /* Зберігає пропорції, не обрізає зображення */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 26px;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #555;
+        }
+        img:hover{
+    transform: scale(2);
+}
+h1{
+    text-align: center;
+    color: chartreuse;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>МЕМИ</h1>
+    </header>
+
+    <div class="mems">
+        <img src="https://osvitoria.media/wp-content/uploads/2023/07/memy-dlya-urokiv-dobirka-smishnyh-kartynok-na-bud-yakyj-urok.png" alt="Мем 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-SvvqxKeNsdVvsZ87WoLcp8PqxNBqys9hMQ&s" alt="Мем 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVTW0nl2LsQXkwDxMBEReXBPvS3mwAFJn4jAox180yZ6xiRmJq5jXyyVhKXmxRV4GHPvE&usqp=CAU" alt="Мем 3">
+        <img src="https://i.pinimg.com/originals/23/dc/8c/23dc8c1a6e4f0825f77b081674cd39fe.jpg" alt="Мем 4">
+        <img src="https://24tv.ua/resources/photos/news/202212/2228438_16208238.jpg?v=1672497167000&w=888&h=1280&fit=cover&output=webp" alt="Мем 5">
+        <img src="https://telegraf.com.ua/static/storage/originals/b/84/e3b5a1561651f615abce9628b318c84b.jpg" alt="Мем 6">
+        
+    </div>
+
+    <div class="button-container">
+        <a href="index.html" class="back-button">На головну</a>
+    </div>
+</body>
+</html>
